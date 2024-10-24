@@ -1,0 +1,123 @@
+.tabs-menu {
+    height: 5px;
+    float: left;
+    clear: both;
+    margin-left:-50px;
+    list-style-type: none; 
+    color:#000;
+}
+
+.tabs-menu li {
+    height: 30px;
+    line-height: 30px;
+    padding-right:20px;
+    float: left;
+    margin-left: 10px;
+    background-color: #ccc;
+    color:#FFF;
+    /*border-top: 1px solid #d4d4d1;
+    border-right: 1px solid #d4d4d1;
+    border-left: 1px solid #d4d4d1;*/
+    /*border-radius: 15px 2px 28px 0;*/
+
+}
+
+.tabs-menu li.current {
+    position: relative;
+    /*background-color: #3FC0EF;*/
+    background-color: #337ab7;
+    z-index: 5;
+    /*border-bottom:#3FC0EF 3px solid;*/
+    color:#FFF;
+}
+
+.tabs-menu li a {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none; 
+}
+
+.tabs-menu .current a {
+    color: #FFF;
+}
+
+.tab_main {
+    /*border: 1px solid #d4d4d1;
+    background-color: #fff;*/
+    /*float: left;*/
+
+    width: 100%;
+}
+
+.tab-data {
+    width: 100%;
+    display: none;
+}
+
+time.icon
+{
+    font-size: 1em; /* change icon size */
+    display: block;
+    position: relative;
+    width: 3.6em;
+    height: 3.2em;
+    background-color: #fff;
+    /*margin: 2em auto;*/
+    border-radius: 0.6em;
+    box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: rotate(0deg) skewY(0deg);
+    -webkit-transform-origin: 50% 10%;
+    transform-origin: 50% 10%;
+}
+time.icon *
+{
+    display: block;
+    width: 100%;
+    font-size: 1.0em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+time.icon strong
+{
+    position: absolute;
+    top: 0;
+    padding: 0.065em 0;
+    color: #fff;
+    background-color: #fd9f1b;
+    border-bottom: 1px dashed #f37302;
+    box-shadow: 0 2px 0 #fd9f1b;
+}
+time.icon em
+{
+    position: absolute;
+    bottom: 0.1em;
+    color: #fd9f1b;
+}
+time.icon span
+{
+    width: 100%;
+    font-size: 1.0em;
+    letter-spacing: -0.05em;
+    padding-top: 1.6em;
+    color: #2f2f2f;
+}
+
+.map_container{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.map_container .map-canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+

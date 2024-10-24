@@ -1,0 +1,19 @@
+.card{
+            font-family: sans-serif;
+            padding: 1rem;
+            width: 20rem;
+            height: 15rem;
+            float: left;
+            margin: 1.5rem;
+            background: white;
+            box-shadow: 0 0 6px 2px rgba(0,0,0,.1);
+            transition: all .2s ease;
+            border-bottom: 2px solid transparent;
+          }
+          .card:hover{
+            border-bottom: 2px solid black;
+          }
+          .card.selected{
+            transform: scale(1.075);
+            box-shadow: 0 0 16px 1px rgba(0,0,0,.3);
+          }

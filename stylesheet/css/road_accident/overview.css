@@ -1,0 +1,115 @@
+
+    .map {
+      height: 600px;
+    }
+    #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    #infowindow-content .title {
+        font-weight: bold;
+    }
+    #infowindow-content {
+        display: none;
+    }
+
+    #map #infowindow-content {
+        display: inline;
+    }
+    
+    #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+    }
+    #target {
+        width: 345px;
+    }
+    .layerup {
+        display:none !important;
+    } 
+    h3 {
+        font-size:15px !important; 
+    }
+    .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px !important;
+    }
+
+    /*Route Direction*/
+        .controls {
+            margin-top: 10px;
+            border: 1px solid transparent;
+            border-radius: 2px 0 0 2px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            height: 32px;
+            outline: none;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        #origin-input,
+        #destination-input {
+            background-color: #fff;
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 300;
+            margin-left: 12px;
+            padding: 0 11px 0 13px;
+            text-overflow: ellipsis;
+            width: 200px;
+        }
+
+        #origin-input:focus,
+        #destination-input:focus {
+            border-color: #4d90fe;
+        }
+
+        #mode-selector {
+            color: #fff;
+            background-color: #4d90fe;
+            margin-left: 12px;
+            padding: 5px 11px 0px 11px;
+        }
+
+        #mode-selector label {
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 300;
+        }
+    /*Route Direction*/
+    .distance_time_{
+
+    }
+
+    /*#legend {
+        font-family: Arial, sans-serif;
+        background: #fff;
+        border: 3px solid #000;
+      }
+      #legend h3 {
+        margin-top: 0;
+      }
+      #legend img {
+        vertical-align: middle;
+      }*/
+      .legends {
+            font-family: "Helvetica Neue", "Helvetica", Arial;
+            position: absolute;
+            line-height: 1em;
+            z-index: 99999;
+            top: 591px !important;
+            left: 266px !important;
+            font-size: 12px;
+            color: black;
+            display: block !important;
+            width: 250px;
+            min-width: 100px;
+            border: 1px solid black;
+            padding: 10px;
+            background-color: cornsilk;
+        }

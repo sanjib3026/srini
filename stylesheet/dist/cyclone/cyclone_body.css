@@ -1,0 +1,46 @@
+body{
+    overflow:auto;
+  }
+          table tr th{
+		   border: 1px solid gray;
+		   padding:5px;
+		   text-align:left;
+		   font-weight:bold;
+	   }
+	   tr td{
+		  
+		   padding:5px;
+		   text-align:left;
+		   font-weight:normal;
+	   }
+	.container{
+    padding-left:0px;
+  }
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+   height:5%;
+}
+.jumbotron{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+.overSelect {
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Previous_Best_Track_Posits" id="Previous_Best_Track_Posits">
+	<SimpleField name="tessellate" type="int"></SimpleField>
+</Schema>
+<Folder><name>Previous_Best_Track_Posits</name>
+  <Placemark>
+	<name>19110318Z</name>
+	<description>Intensity: 20 knots</description>
+	<ExtendedData><SchemaData schemaUrl="#Previous_Best_Track_Posits">
+		<SimpleData name="tessellate">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.2,13.0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>19110400Z</name>
+	<description>Intensity: 20 knots</description>
+	<ExtendedData><SchemaData schemaUrl="#Previous_Best_Track_Posits">
+		<SimpleData name="tessellate">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.1,13.1</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>19110406Z</name>
+	<description>Intensity: 20 knots</description>
+	<ExtendedData><SchemaData schemaUrl="#Previous_Best_Track_Posits">
+		<SimpleData name="tessellate">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.0,13.3</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>19110412Z</name>
+	<description>Intensity: 20 knots</description>
+	<ExtendedData><SchemaData schemaUrl="#Previous_Best_Track_Posits">
+		<SimpleData name="tessellate">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.1,13.5</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>19110418Z</name>
+	<description>Intensity: 20 knots</description>
+	<ExtendedData><SchemaData schemaUrl="#Previous_Best_Track_Posits">
+		<SimpleData name="tessellate">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.6,13.8</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Best Track</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Previous_Best_Track_Posits">
+		<SimpleData name="tessellate">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>115.2,13.0 115.1,13.1 115.0,13.3 115.1,13.5 115.6,13.8 115.6,14.0</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>
